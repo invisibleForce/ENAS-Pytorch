@@ -11,6 +11,7 @@ Phase 1: Train child (shared params) and controller
   3. validate the child if condition satisfied
   4. train the controller if condition satisfied
   5. validate the controller if condition satisfied
+  
 Phase 2: Derive the best arch 
   1. derive an arch after controller samples 1000 archs. 
   The arch obtains the best accuracy on validation dataset is selected, referred to as best arch.
